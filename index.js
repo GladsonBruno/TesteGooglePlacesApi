@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 //Função para iniciar o mapa e as demais funções
 function initMap() {
     //Verifica a posicão atual, se conseguir executa a função de sucesso
@@ -98,7 +98,7 @@ function initMap() {
         maximumAge: 0
     };
 //Fim Função para iniciar o mapa e as demais funções
-=======
+
 function initMap() {
     navigator.geolocation.getCurrentPosition(success, error, options);
     function success(pos) {
@@ -144,6 +144,6 @@ function initMap() {
         timeout: 5000,
         maximumAge: 0
     };
->>>>>>> 2b74f9c60cb106485dd9dbc624a0c74d7734f353
+
 }
 
