@@ -34,7 +34,7 @@ function initMap() {
         var marker = new google.maps.Marker({
             //Definindo que ele aparecerá no meu mapa
             map: map,
-            //Na posiçãoAtual
+            //Na posiçãoAtual.
             position: posicaoAtual,
             //Titulo do marcador
             title: 'Você está aqui!',
