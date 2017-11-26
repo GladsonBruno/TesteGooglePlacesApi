@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estudo Blaces API</title>
+
+    <style>
+      #map {
+        height: 100%;
+      }
+      
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+</head>
+<body>
+    <!-- Div que irá alocar o mapa -->
+    <div id="map"> <center> <img src="loading.gif" alt="Carregando"> </center> </div>
+    <!--  Carregando api google maps | biblioteca places | passando função init map como função de inicialização -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ3GCP4VIbBiAkjHQFwLnxDrwryk2FaQ0&libraries=places&callback=initMap"
+    async defer></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
